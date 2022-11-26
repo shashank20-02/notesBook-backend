@@ -9,7 +9,7 @@ const App = express();
 App.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000", "http://localhost:4000"],
+    origin: "https://glowing-conkies-b3a70f.netlify.app/",
   })
 );
 App.use(express.json());
